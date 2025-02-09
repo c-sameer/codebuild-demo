@@ -13,6 +13,7 @@ phases:
             - echo "Running on $MY_AWS_REGION"
             - echo "Print Environment Variables"
             - echo "Start the installation process"
+            - printenv
             - echo "Installation Process Completed"
             - echo "my name is $name"
     pre_build:
