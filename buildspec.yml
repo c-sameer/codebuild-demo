@@ -13,9 +13,10 @@ phases:
             - echo "Running on $MY_AWS_REGION"
             - echo "Print Environment Variables"
             - echo "Start the installation process"
-            - printenv
             - echo "Installation Process Completed"
             - echo "my name is $name"
+            - echo "My default region is $GOLANG_21_VERSION"
+            - echo "My default region is $AWS_DEFAULT_REGION"
     pre_build:
         commands: 
             - echo "This is the start of Pre-Build phase"
